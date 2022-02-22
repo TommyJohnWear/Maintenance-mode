@@ -1,0 +1,26 @@
+{
+  "name": "maintenance-mode",
+  "version": "1.0.0",
+  "description": "Created with CodeSandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TommyJohnWear/Maintenance-mode.git"
+  },
+  "keywords": [],
+  "author": "Serge M <alotoftpe@gmail.com> (https://smjr.us/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TommyJohnWear/Maintenance-mode/issues"
+  },
+  "homepage": "https://github.com/TommyJohnWear/Maintenance-mode#readme",
+  "dependencies": {
+    "parcel-bundler": "1.12.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.17.5"
+  }
+}
