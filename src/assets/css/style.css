@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Basetica";
+  src: url("/src/assets/fonts/basetica-regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Basetica Bold";
+  src: url("/src/assets/fonts/basetica-bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+
+.content-container {
+  text-align: left;
+  padding: 5rem 1.5rem 5rem 1.5rem;
+}
+
+.content-container .icon-container img {
+  height: 2rem;
+}
+
+.content-container h1{
+  font-size: 1.75rem;
+  line-height: 2rem;
+  color: #004242;
+  font-family: 'Basetica Bold';
+  margin-top: 1.5rem;
+  margin-bottom: .75rem;
+}
+
+.content-container .subtitle-container {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: 'Basetica';
+  color: #4D4D4D;
+}
+
+.content-container a {
+  color: #587679;
+}
+
+/* tablet portrait specific*/
+@media only screen and (min-width: 764px) {
+  .content-container {
+    max-width: 42.5rem;
+  }
+}
+
+/* desktop specific*/
+@media only screen and (min-width: 1280px) {
+  .content-container {
+    padding: 15rem 9rem 15rem 9rem;
+  }
+
+  .content-container h1{
+    font-size: 2.5rem;
+    line-height: 2.875rem;
+    margin-bottom: 1.5rem;
+  }
+}
